@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+header {
+  background-color: #f1c40f;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000000;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-size: 72px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.cell:hover {
+  background-color: #f1c40f;
+}
+
+.x {
+  color: #e74c3c;
+}
+
+.o {
+  color: #3498db;
+}
